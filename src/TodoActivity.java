@@ -8,6 +8,7 @@ import javax.inject.Inject;
 import dagger.android.AndroidInjection;
 import dagger.android.support.DaggerAppCompatActivity;
 
+// if TodoActivity extends AppCompatActivity , Everything functions well
 public class TodoActivity extends DaggerAppCompatActivity {
 
     @Inject
